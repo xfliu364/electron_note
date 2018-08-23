@@ -1,0 +1,11 @@
+
+
+安装 nodegit 时需要先安装python，只能用python2
+
+默认的amazon下载站下不下来，墙了，使用淘宝镜像可以：
+1. 先安装cnpm: npm install -g cnpm --registry=https://registry.npm.taobao.org
+2. 再用cnpm安装nodegit: cnpm install -g surf-build
+	注意，这样是不行的npm install -g surf-build --registry=https://registry.npm.taobao.org
+
+	nodegit需要C++11编译器。如果安装了visual studio（vs2013起），安装nodegit时，会自动调用visual studio编译原生代码
+	
